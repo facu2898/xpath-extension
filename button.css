@@ -1,0 +1,12 @@
+.container{
+    height: 12em;
+    width: 20em;
+}
+
+.input textarea{
+    resize: none;
+}
+
+.buttons{
+    display: flex;
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Xpath Viewer",
+  "description": "See Xpath selections in real time",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["storage", "activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "/images/delete.png",
+      "32": "/images/delete.png",
+      "48": "/images/delete.png",
+      "128": "/images/delete.png"
+    }
+  },
+  "icons": {
+    "16": "/images/delete.png",
+    "32": "/images/delete.png",
+    "48": "/images/delete.png",
+    "128": "/images/delete.png"
+  }
+}
